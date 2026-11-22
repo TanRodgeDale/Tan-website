@@ -16,3 +16,16 @@ h1, h2, h3 {
 h1, h2, a {
     color: #00FF00;
 }
+
+.logo {
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+}
+
+.gym-photo {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
