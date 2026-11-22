@@ -1,0 +1,18 @@
+/* Palette: electric green #00FF00, charcoal #1A1A1A, slate grey #4A4A4A. */
+
+body {
+    margin: 20px;
+    background: #1A1A1A;
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: Montserrat, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+h1, h2, a {
+    color: #00FF00;
+}
