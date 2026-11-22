@@ -29,3 +29,43 @@ h1, h2, a {
     max-width: 500px;
     height: auto;
 }
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #00FF00;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+    text-decoration: underline;
+}
+
+header, footer {
+    padding: 16px;
+    background: #4A4A4A;
+}
+
+section {
+    margin: 24px 0;
+    padding: 12px;
+    border-bottom: 1px solid #4A4A4A;
+}
